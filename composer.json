@@ -34,5 +34,8 @@
 		"allow-plugins": {
 			"symfony/thanks": true
 		}
-	}
+	},
+	 "scripts": {
+    "start": "php -S 0.0.0.0:8000 -t www"
+  }
 }
