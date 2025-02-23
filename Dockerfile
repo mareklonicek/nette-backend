@@ -2,7 +2,7 @@
 FROM php:8.2-cli
 
 # Nastavení pracovního adresáře
-WORKDIR /var/www
+WORKDIR /var/www/html
 
 # Kopírování aplikace do kontejneru
 COPY . .
